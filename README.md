@@ -34,3 +34,20 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+## What I built
+
+This is a functional mobile first app which pulls from a news board and allows users to search by keywords, search by tags or create a tag. It also summarizes the articles and gives high level bulleted details
+
+## What Works
+
+Searching for an article by tag, AI assisted tagging, tag creation and AI summarization
+
+## What is incomplete
+
+I do not believe anything in this is incomplete but if I were to improve I would add features to be more veiwable on desktop
+
+## What tradeoffs did you make
+
+I 
