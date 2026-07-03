@@ -50,4 +50,12 @@ I do not believe anything in this is incomplete but if I were to improve I would
 
 ## What tradeoffs did you make
 
-I 
+I preloaded the AI tagging (which could cost more in AI toke requests) versus loading the tags once an article is clicked. This was done so that the tags would be preloaded for the user to utilzie without clicking through every article
+
+## How did you use AI?
+
+I used Gemini and fed it the insturctions and prompted Gemini to say I am using NextJs as the framework. So Gemini developed the code and I copied it into my NextJS app. Along the way i saw that the app was native to desktop in the way Gemini coded it so I prompted Gemini to make it mobile first. Along the way I also prompted AI to add a way for me to add my own custom tags and tested the code. I found a bug where the AI tag would count "AI" in articles not pertaining to AI so I also prompted Gemini to fix this and re-tested.
+
+## What would you do with more time?
+
+With more time I would implement a sign in feature to allow tags to save and connect a supabase backend to store all the profile information (perhaps saved articles, tags created, name, etc).
